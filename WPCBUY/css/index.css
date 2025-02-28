@@ -1,0 +1,237 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+a {
+  cursor: pointer;
+}
+a:hover {
+  opacity: 0.8;
+}
+a.nav-links {
+  color: #0c0c0c;
+}
+textarea {
+  text-indent: 0;
+}
+section {
+  padding: 50px;
+}
+.poppins-regular {
+  font-weight: 400;
+  font-style: normal;
+}
+.poppins-semibold {
+  font-weight: 600;
+  font-style: normal;
+}
+.poppins-extrabold {
+  font-weight: 800;
+  font-style: normal;
+}
+.green-theme {
+  color: #017931;
+}
+.green-bg-theme {
+  background-color: #017931;
+}
+.dark-green-theme {
+  background-color: rgb(61, 74, 62);
+}
+.bg-grey {
+  background-color: rgb(240, 240, 240);
+}
+.grey-theme {
+  color: gray;
+}
+.grey-bg-theme {
+  background-color: grey;
+}
+.blue-theme {
+  color: #2866c2;
+}
+.blue-light-theme {
+  color: #4b8cec;
+}
+.green-light-bg {
+  background-color: #09f367 !important;
+  color: black !important;
+}
+.blue-bg-theme {
+  background-color: #2866c2;
+}
+.text-justify {
+  text-align: justify;
+}
+.timer-color {
+  display: inline-block;
+  background-image: linear-gradient(#3d4a3e, #b40505);
+  background-clip: text;
+  color: transparent;
+}
+h5.price-top-right {
+  background-color: hsla(125, 10%, 26%, 0.7);
+  border-top-right-radius: 30px;
+  position: relative;
+  right: 0;
+}
+div#dropdownMenu {
+  position: absolute;
+  right: 45px;
+  top: 70px;
+  z-index: 99999;
+  text-align: right;
+  display: none;
+}
+div.card-bottom {
+  background-color: hsla(0, 0%, 12%, 0.7);
+  margin-top: 110px;
+}
+div.trending-card-bottom {
+  background-color: hsla(0, 0%, 12%, 0.7);
+  margin-top: 208px;
+}
+div.profile-card-bottom {
+  background-color: hsla(0, 0%, 12%, 0.7);
+  margin-top: 110px;
+}
+section.trending-cars {
+  background-image: url("../images/backgrounds/trending-cars.png");
+}
+.bg-illustrated {
+  background-image: url("../images/backgrounds/cars-sold-card.png");
+  background-size: cover;
+}
+.car-image-background {
+  background-image: url("../images/backgrounds/hero.png");
+  background-attachment: fixed;
+}
+.hero-text {
+  font-size: 4rem;
+  line-height: 1.2;
+}
+.link-texts a {
+  text-decoration: none;
+  padding: 10px;
+  margin-right: 10px;
+  color: white;
+}
+.link-texts {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+section.about-us {
+  background-image: url(../images/backgrounds/about-us.png);
+}
+form {
+  text-align: center;
+}
+input,
+textarea {
+  border-radius: 15px;
+  border: 1px solid #ccc;
+}
+div.nav-elements {
+  padding: 100px 0;
+}
+div.input-fields {
+  width: 75%;
+}
+img.login-image {
+  position: relative;
+  top: 20%;
+}
+input[type="submit"] {
+  width: 20%;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 30px;
+  border: none;
+  background-color: #017931;
+  color: #fff;
+  cursor: pointer;
+}
+footer {
+  background-image: url("../images/backgrounds/footer.png");
+}
+a.nav-links-2:hover {
+  background-color: rgba(160, 175, 161, 0.3);
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+a.active-nav-link {
+  background-color: rgba(160, 175, 161, 0.3);
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+div#nav-logo-black {
+  background-color: white;
+}
+div#forgotPassModal {
+  position: absolute;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(3px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div#carInfoModal {
+  min-height: 85vh;
+  min-width: 100vw;
+  background-image: url('../images/backgrounds/about-us.png');
+}
+div.editCarModal {
+  position: fixed;
+  z-index: 9999999;
+  left: 0;
+  top: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+div.modal-dialog {
+  width: 75%;
+  height: 75%;
+  overflow: auto;
+  background-color: white;
+}
+
+.edit-modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+}
+
+#editModalClose:hover,
+#editModalClose:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  section.about-us {
+    background-image: url("../images/backgrounds/about-us-mobile.png");
+  }
+  footer {
+    background-image: url("../images/backgrounds/footer-mobile.png");
+    background-size: cover;
+  }
+  div.input-fields {
+    width: 90%;
+  }
+  input[type="submit"] {
+    width: 80%;
+  }
+  div.profile-card {
+    height: 300px !important;
+  }
+  div.profile-card-bottom {
+    background-color: hsla(0, 0%, 12%, 0.7);
+    margin-top: 208px;
+  }
+}

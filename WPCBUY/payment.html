@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WPC Cars - Drive to Save</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="icon" href="images/logo.svg" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="p-4 sticky-top bg-white shadow-sm">
+      <div class="align-content-center d-block d-lg-inline-block">
+        <a href="/index.html">
+          <img
+            src="/images/logo.svg"
+            alt="logo"
+            height="35"
+            class="d-none d-lg-inline-block"
+          />
+
+          <h1 class="green-theme poppins-extrabold fs-4 d-inline-block mb-0">
+            WPC <small class="small">CARS</small>
+          </h1>
+        </a>
+        <img
+          src="images/List.png"
+          alt="hamburger"
+          class="float-end d-lg-none"
+          id="navBtn"
+          height="32px"
+        />
+      </div>
+      <div
+        class="dropdown nav-links d-block d-lg-inline-block py-2 py-lg-1 pe-lg-4 text-decoration-none float-end"
+      >
+        <button
+          class="btn dropdown-toggle"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <a role="button"
+            ><i class="fa fa-cart-plus" aria-hidden="true"></i>(2)</a
+          >
+        </button>
+        <ul class="dropdown-menu">
+          <li>
+            <button class="dropdown-item" type="button">Lexus model x</button>
+          </li>
+          <li>
+            <button class="dropdown-item" type="button">Lexus model y</button>
+          </li>
+          <li><button class="dropdown-item" type="button"></button></li>
+        </ul>
+      </div>
+    </header>
+    <div class="row m-0 ps-5 pe-5 mt-5">
+      <div class="col-12 col-lg-6">
+        <form action="#" method="post" class="text-start" netlify>
+          <div>
+            <h1 class="fs-5 poppins-semibold">Personal details</h1>
+            <div class="input-fields">
+              <label for="username">Fullname</label><br />
+              <input
+                type="text"
+                id="username "
+                name="username"
+                class="mb-3 py-2 px-3 w-100 rounded"
+                placeholder="Enter your Name"
+                required
+              /><br />
+            </div>
+            <div class="input-fields">
+              <label for="username">Address</label><br />
+              <input
+                type="text"
+                id="address"
+                name="username"
+                class="mb-3 py-2 px-3 w-100 rounded"
+                placeholder="Enter your Address"
+                required
+              /><br />
+            </div>
+            <div class="input-fields">
+              <label for="username">Phone Number</label><br />
+              <input
+                type="text"
+                id="Phone"
+                name="username"
+                class="mb-3 py-2 px-3 w-100 rounded"
+                placeholder="Enter your Phone number"
+                required
+              /><br />
+            </div>
+            <h1 class="fs-5 poppins-semibold">Delivery details</h1>
+            <div class="input-fields">
+              <label for="username">Delivery adress</label><br />
+              <input
+                type="text"
+                id="delivery_address"
+                name="username"
+                class="px-2 py-2 w-100 rounded"
+                placeholder="Enter your delivery address"
+                required
+              /><br />
+            </div>
+            <br />
+            <div class="input-fields d-inline-block text-start">
+              <input type="checkbox" id="checkbox" name="checkbox" />
+              <label for="checkbox" class="mb-3">Use main address</label>
+            </div>
+            <h1 class="fs-5 poppins-semibold">Method of delivery</h1>
+            <input type="checkbox" id="checkbox" name="checkbox" />
+            <label for="checkbox" class="">Door delivery</label>
+            <br />
+            <input type="checkbox" id="checkbox" name="checkbox" />
+            <label for="checkbox" class="">Pickup station</label><br />
+            <div class="text-center">
+              <h4
+                class="green-bg-theme text-white py-1 rounded-3 w-75 mt-3 fs-5"
+              >
+                Done
+              </h4>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="col-12 col-lg-6 pt-5">
+        <div class="row rounded-5 bg-grey p-3">
+          <div class="col-md-8 mt-3">
+            <p class="poppins-semibold">
+              Lexus model x <br />Year: 2023 <br />Color: Midnight Silver
+              Metallic <br />Condition: Brand New <br />Transmission: Electric
+              (Automatic)
+            </p>
+          </div>
+          <div class="col-md-4 p-0">
+            <img
+              src="/images/Lexus-LX570-Bnr.jpg"
+              alt="Lexus-LX570-Bnr"
+              class="w-100 rounded-5"
+            />
+          </div>
+          <div class="col-12">
+            <p>
+              Name : Sarah Johnson <br />Address : 123 Maple Street, Anytown,
+              USA
+              <br />
+              Phone : +1 (555) 123-4567 <br />
+              1234 Oak Street, <br />
+              Apartment 5A, <br />
+              Anytown, USA 54321 <br />
+              Door delivery
+            </p>
+            <p class="poppins-semibold text-end">N4,700,000</p>
+            <div class="text-end">
+              <h4
+                class="green-bg-theme text-white py-2 px-3 rounded-3 w-100 text-center fs-5"
+              >
+                Proceed to payment
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/index.js"></script>
+    <script src="js/payment.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/276652a6bf.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
